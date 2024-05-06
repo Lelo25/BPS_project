@@ -36,7 +36,7 @@ if __name__ == '__main__':
     args = parser.parse_args()
     # Read csv file
     results = pd.read_csv(args.csv_file)
-    results.drop('name', inplace=True)
+    results.drop('name', inplace=True, axis=1)
     # Process each column
     summary = results.apply(lambda col: compute_mean_conf_interval(col.to_list())).set_axis(['mean', 'conf'])
     # Output data
