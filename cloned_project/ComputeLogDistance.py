@@ -33,10 +33,10 @@ class EventLogIDs:
 log_1_ids = EventLogIDs()
 log_2_ids = EventLogIDs(
     case='case_id',
-    activity='Activity',
+    activity='activity',
     start_time='start_time',
     end_time='end_time',
-    resource='Resource'
+    resource='resource'
 )
 
 
