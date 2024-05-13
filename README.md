@@ -12,9 +12,6 @@ This repository forms part of an advanced course on process mining at the Univer
 - `original-event-logs/`: folder containing the (train and test) event logs used in the evaluation.
 - `ComputeLogDistance.py`: script to compute the distance measures proposed in the paper.
 - `simulated-logs/`: first folder containing the simulated logs evaluated in the paper (synthetic, SIMOD, and ServiceMiner).
-- `simulated-logs-2/`: second folder containing the simulated logs evaluated in the paper (synthetic, SIMOD, and ServiceMiner).
-
-The simulated logs folder is divided into two parts due to GitHub's file size limits. Depending on which datasets are required, please access either the first or the second folder accordingly.
 
 ### Usage Instructions
 
@@ -56,5 +53,14 @@ EventLogIDs(
     resource='Resource'
 )
 ```
+
+### System Information
+
+The replication experiments were run on these machines:
+
+- Macbook Air M2
+-
+-
+-
 
 .csv to .gz converter: https://gzip.swimburger.net/
