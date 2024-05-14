@@ -24,11 +24,13 @@ This repository forms part of an advanced course on process mining at the Univer
 
 ### Usage Instructions
 
-To calculate all distance measures as per the paper's methods, execute:
+To calculate all distance measures as per the paper's methods, execute for example:
 
 ```bash
-python ComputeLogDistance.py -cfld test_event_log.csv.gz simulated-logs/
+python ComputeLogDistance.py -cfld cloned_project/original-event-logs/AcademicCredentials_test.csv.gz cloned_project/simulated-logs/AcademicCredentials_SIMOD.csv.gz
 ```
+
+Switch the `original-event-logs` and `simulated-logs` accordingly to what you want to run (either train or test, either SIMOD or ServiceMiner). 
 
 The flag `-cfld` is optional, due to the high computational complexity of the CFLD measure.
 
@@ -68,7 +70,7 @@ EventLogIDs(
 The replication experiments were run on these machines:
 
 - Macbook Air M2
--
+- Windows 10 Home (64-bit) (10.0, Build 19045), AMD Ryzen 7 2700X Eight-Core Processor (16 CPUs) 3.7GHz, 32GB RAM
 -
 -
 
