@@ -8,7 +8,7 @@ This repository forms part of an advanced course on process mining at the Univer
 - `additional_research/`: folder containing the code, results and models from additional researches that have been conducted in regards to the paper.
 - `cloned_project/`: folder with the cloned repository from the paper. These are the files we worked with during the replication, therefore also fixed files can be found in there.
 - `results/`: folder containing the distance values of each measure reported in the **paper** as well as **our** results from the code replication.
-- `time_format_correction.ipynb`: pyhton script for correction the time format error for the files of BPIC_2012_test and BPIC_2012_train. The corrected files can also be found `cloned_project/original-event-logs/`.
+- `time_format_correction.ipynb`: pyhton script for correction the time format error for the files of `BPIC_2012_test` and`BPIC_2012_train`. The corrected files can also be found `cloned_project/original-event-logs/`.
 
 #### additonal_research
 - `log_replication/`:
