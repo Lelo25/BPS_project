@@ -8,7 +8,7 @@ This repository forms part of an advanced course on process mining at the Univer
 - `BPS-models/`: folder containing the BPS models used in the evaluation (the BPS models discovered by ServiceMiner are not included due to privacy reasons).
   - The BPS models discovered by SIMOD are composed of _i)_ a BPMN file with the process model structure, and _ii)_ a JSON file with the parameters of the simulation. These files correspond to the format of Prosimos simulation engine (https://prosimos.cloud.ut.ee/).
   - The BPS models of the Loan Application process are composed of a BPMN file with both the process model structure and parameters, corresponding to the format of the BIMP simulator used in APROMORE (https://apromore.com/).
-- `measures/`: folder containing the distance values of each measure reported in the paper.
+- `results/`: folder containing the distance values of each measure reported in the paper as well as our results from the code replication.
 - `original-event-logs/`: folder containing the (train and test) event logs used in the evaluation.
 - `ComputeLogDistance.py`: script to compute the distance measures proposed in the paper.
 - `simulated-logs/`: first folder containing the simulated logs evaluated in the paper (synthetic, SIMOD, and ServiceMiner).
@@ -64,7 +64,7 @@ The replication experiments were run on these machines:
 -
 
 ### Resources
-The scripts to reproduce the experiments, the datasets, and the results are publicly available [here](https://zenodo.org/records/7761252).
+The scripts to reproduce the experiments, the datasets, and the results are publicly available [here](https://zenodo.org/records/7761252).<br>
 The GitHub Repository of the full code from the paper can be found [here](https://github.com/AutomatedProcessImprovement/log-distance-measures).
 
 In case a .csv to .gz converter should be needed for replication, we used this one [here](https://gzip.swimburger.net/).
