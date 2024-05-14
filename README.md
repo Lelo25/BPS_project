@@ -1,7 +1,7 @@
 # Advanced Process Mining Team Project
 ## University of Mannheim
 
-This repository forms part of an advanced course on process mining at the University of Mannheim, focusing on replicating the findings of the paper "Can I Trust My Simulation Model? Measuring the Quality of Business Process Simulation Models".
+This repository forms part of an advanced course on process mining at the University of Mannheim, focusing on replicating the findings of the paper ["Can I Trust My Simulation Model? Measuring the Quality of Business Process Simulation Models"](https://link.springer.com/chapter/10.1007/978-3-031-41620-0_2#Bib1).
 
 ### Repository Overview
 
@@ -63,4 +63,8 @@ The replication experiments were run on these machines:
 -
 -
 
-.csv to .gz converter: https://gzip.swimburger.net/
+### Resources
+The scripts to reproduce the experiments, the datasets, and the results are publicly available [here](https://zenodo.org/records/7761252).
+The GitHub Repository of the full code from the paper can be found [here](https://github.com/AutomatedProcessImprovement/log-distance-measures).
+
+In case a .csv to .gz converter should be needed for replication, we used this one [here](https://gzip.swimburger.net/).
