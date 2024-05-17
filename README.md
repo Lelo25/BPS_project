@@ -69,7 +69,7 @@ EventLogIDs(
 
 The replication experiments were run on these machines:
 
-- Macbook Air M2
+- Macbook Air M2 8GB RAM
 - Windows 10 Home (64-bit) (10.0, Build 19045), AMD Ryzen 7 2700X Eight-Core Processor (16 CPUs) 3.7GHz, 32GB RAM
 -
 - HP 15s
