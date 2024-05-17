@@ -72,6 +72,8 @@ The replication experiments were run on these machines:
 - Macbook Air M2
 - Windows 10 Home (64-bit) (10.0, Build 19045), AMD Ryzen 7 2700X Eight-Core Processor (16 CPUs) 3.7GHz, 32GB RAM
 -
+- HP 15s
+- 16GB RAM, 12 core CPU intel i5-12Gen 1.30GHz, Windows 11
 -
 
 ### Resources
