@@ -12,7 +12,7 @@ This repository forms part of an advanced course on process mining at the Univer
 - `time_format_correction.ipynb`: pyhton script for correction the time format error for the files of `BPIC_2012_test` and`BPIC_2012_train`. The corrected files can also be found `cloned_project/original-event-logs/`.
 
 #### additonal_research
-- `log_replication/`: folder containing the files used for the replication of the BPMN models used in the paper using SIMOD. This approach worked only for one of the data set from the paper (AcademicCredentials) due to errors in SIMOD. 
+- `new_discovery/`: folder containing the files used for the replication of the BPMN models used in the paper using SIMOD. This approach worked only for one of the data set from the paper (AcademicCredentials) due to errors in SIMOD. 
 - `new_logs/`: fodler with the input as well as output files of creating a BPMN model with SIMOD and applying the measures from the paper to it.
 
 #### cloned_project
