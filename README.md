@@ -11,8 +11,8 @@ This repository forms part of an advanced course on process mining at the Univer
 - `time_format_correction.ipynb`: pyhton script for correction the time format error for the files of `BPIC_2012_test` and`BPIC_2012_train`. The corrected files can also be found `cloned_project/original-event-logs/`.
 
 #### additonal_research
-- `log_replication/`:
-- `new_logs/`:
+- `log_replication/`: folder containing the files used for the replication of the BPMN models used in the paper using SIMOD. This approach worked only for one of the data set from the paper (AcademicCredentials) due to errors in SIMOD. 
+- `new_logs/`: fodler with the input as well as output files of creating a BPMN model with SIMOD and applying the measures from the paper to it.
 
 #### cloned_project
 - `BPS-models/`: folder containing the BPS models used in the evaluation (the BPS models discovered by ServiceMiner are not included due to privacy reasons).
@@ -71,10 +71,7 @@ The replication experiments were run on these machines:
 
 - Macbook Air M2 8-core CPU 8GB RAM
 - Windows 10 Home (64-bit) (10.0, Build 19045), AMD Ryzen 7 2700X Eight-Core Processor (16 CPUs) 3.7GHz, 32GB RAM
--
-- HP 15s
-- 16GB RAM, 12 core CPU intel i5-12Gen 1.30GHz, Windows 11
--
+- HP 15s, 16GB RAM, 12 core CPU intel i5-12Gen 1.30GHz, Windows 11
 
 ### Resources
 The scripts to reproduce the experiments, the datasets, and the results are publicly available [here](https://zenodo.org/records/7761252).<br>
