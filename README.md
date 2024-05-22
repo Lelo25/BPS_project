@@ -9,6 +9,7 @@ This repository forms part of an advanced course on process mining at the Univer
 - `cloned_project/`: folder with the cloned repository from the paper. These are the files we worked with during the replication, therefore also fixed files can be found in there.
 - `results/`: folder containing the distance values of each measure reported in the **paper** as well as **our** results from the code replication.
 - `PMGroupProject_MeasureResults.xlsx`: file containing a summary of our numerical results from the replication study.
+- `ReplicationStudy_CanITrustMySimulationModels.pdf`: file containting our presentation from the exercise/presentation session on 21.05.2024.
 - `time_format_correction.ipynb`: pyhton script for correction the time format error for the files of `BPIC_2012_test` and`BPIC_2012_train`. The corrected files can also be found `cloned_project/original-event-logs/`.
 
 #### additonal_research
